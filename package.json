@@ -1,7 +1,7 @@
 {
   "name": "pm",
   "productName": "Patrol Manager",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "My Electron application description",
   "main": ".webpack/main",
   "build": {
