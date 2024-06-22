@@ -1,6 +1,7 @@
 import { app, BrowserWindow, dialog } from 'electron';
 import { autoUpdater } from 'electron-updater'; // Assuming you've installed electron-updater
-
+const log = require('electron-log');
+log.transports.file.level = 'info';
 const { exec } = require('child_process');
 
 declare const MAIN_WINDOW_WEBPACK_ENTRY: string;
@@ -24,7 +25,7 @@ function createWindow(): void {
   // mainWindow.webContents.openDevTools();
 
   // Uncomment to hide the menu bar
-  // mainWindow.setMenuBarVisibility(false);
+   mainWindow.setMenuBarVisibility(false);
 
   mainWindow.on('closed', () => {
     mainWindow = null;
@@ -38,7 +39,16 @@ autoUpdater.setFeedURL({
 });
 
 app.on('ready', () => {
+  // Start community JSON server
   exec('npx json-server ./src/db/community.json --port 3001', (error: any, stdout: any, stderr: any) => {
+    if (error) {
+      console.error(`Error starting JSON server: ${error}`);
+      return;
+    }
+    console.log(`JSON server started: ${stdout}`);
+  });
+  // Start user JSON server
+  exec('npx json-server ./src/db/currentUser.json --port 3002', (error: any, stdout: any, stderr: any) => {
     if (error) {
       console.error(`Error starting JSON server: ${error}`);
       return;
@@ -59,6 +69,7 @@ app.on('ready', () => {
 
 autoUpdater.on('checking-for-update', () => {
   console.log('Checking for update...');
+  log.info('Checking for update...');
 });
 
 autoUpdater.on('update-available', () => {
@@ -74,10 +85,12 @@ autoUpdater.on('update-available', () => {
 
 autoUpdater.on('update-not-available', () => {
   console.log('Update not available');
+  log.info('Update not available');
 });
 
 autoUpdater.on('error', (err) => {
   console.error('Error in auto-updater:', err);
+  log.error('Error in auto-updater:', err);
 });
 
 autoUpdater.on('update-downloaded', () => {

@@ -1,7 +1,7 @@
 {
   "name": "pm",
   "productName": "Patrol Manager",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "My Electron application description",
   "main": ".webpack/main",
   "build": {
@@ -62,6 +62,7 @@
     "@mui/icons-material": "^5.15.20",
     "@mui/material": "^5.15.20",
     "axios": "^1.7.2",
+    "electron-log": "^5.1.5",
     "electron-squirrel-startup": "^1.0.1",
     "electron-updater": "^6.2.1",
     "update-electron-app": "^3.0.0"

@@ -7,25 +7,27 @@
                 "Alias": "LSPD",
                 "Fullname": "Police Department",
                 "Icon": "LEO",
-                "image": "https://cdn.discordapp.com/attachments/1020103506159476757/1243374110025842749/image.png?ex=66757f20&is=66742da0&hm=843c4b97aa69a3e8530aa0d79fd5f5f00e8a821e5f21fd47e3f1c5fb7e7dd775&"
+                "image":"https://cdn.discordapp.com/attachments/1020102122727034951/1253451578648694855/218_20240620214813_1.png?ex=667738c0&is=6675e740&hm=3694b65a75947a454ae6d9e26abe5de0286de78c0699b9f318327cef46c35427&"
             },
             {
                 "Alias":"BCSO",
                 "Fullname":"Sheriff's Office",
                 "Icon":"LEO",
-                "image": "https://cdn.discordapp.com/attachments/380418736563159044/1250700856177983519/FD768F59-4863-4B19-9E07-5602649131DD.jpg?ex=66751ff1&is=6673ce71&hm=7d0ddd03d330766bb3bcccec5b5387ccac1ac65956d94403eac1fa9edee2971c&"
+                "image":"https://cdn.discordapp.com/attachments/380418736563159044/1251185055242649742/image.png?ex=66778ba3&is=66763a23&hm=83e9505eae5c7fae910525af3765d575c6eb30bf9bc6f3ff58902b7c46055a13&"
+
             },
             {
                 "Alias":"SAHP",
                 "Fullname":"Highway Patrol",
                 "Icon":"LEO",
-                "image": "https://cdn.discordapp.com/attachments/1120264937483292753/1203731025339879514/218_20240128123442_1.png?ex=6675a2e0&is=66745160&hm=bcda08b6d5a05070ebbae73cd5b18f3ab114787a5d22541beaa25898bfd1a3cc&"
+                "image":"https://cdn.discordapp.com/attachments/391419455806373908/1250653983911968778/Screenshot_81.png?ex=66779749&is=667645c9&hm=024702bae664c94f1cd20213f9e993cf2bee7bca53419a2f50fa8597eaa5a58a&"
+
             },
             {
                 "Alias":"FD",
                 "Fullname":"Fire Department",
                 "Icon":"Fire",
-                "image": "https://cdn.discordapp.com/attachments/906583943850127370/1251551506155704402/Screenshot_20.png?ex=6675952b&is=667443ab&hm=5b905c3f2b5829f477d1a76a8a5d1446e226758395d930d98d1e79c9da01b9df&"
+                "image": "https://cdn.discordapp.com/attachments/906583943850127370/1251551506155704402/Screenshot_20.png?ex=66778f6b&is=66763deb&hm=68afb23fc6cf106e79c490e8e2d78cc9d66143353e6bc8320656060cea6ac40f&"
 
             }
          ],
