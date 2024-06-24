@@ -25,4 +25,5 @@ export interface CurrentUserType {
     Fullname: string;
     Email: string;
     isCompact: boolean;
+    isDarkMode: boolean;
 }

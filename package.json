@@ -1,5 +1,5 @@
 {
-  "name": "pm",
+  "name": "patrol-manager",
   "productName": "Patrol Manager",
   "version": "1.0.2",
   "description": "My Electron application description",
@@ -62,6 +62,7 @@
     "@mui/icons-material": "^5.15.20",
     "@mui/material": "^5.15.20",
     "axios": "^1.7.2",
+    "electron-json-storage": "^4.6.0",
     "electron-log": "^5.1.5",
     "electron-squirrel-startup": "^1.0.1",
     "electron-updater": "^6.2.1",
