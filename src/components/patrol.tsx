@@ -99,7 +99,7 @@ export default function Patrol() {
                     <IconButton> <Dataset fontSize='inherit' /> </IconButton>
                     </Tooltip>
                     <Tooltip title="Home">
-                        <IconButton color="inherit" onClick={() => nav('/')}>
+                        <IconButton onClick={() => nav('/')}>
                             <Home />
                         </IconButton>
                     </Tooltip>
@@ -166,7 +166,7 @@ export default function Patrol() {
                 <Box sx={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
                     <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignContent: 'center', alignItems: 'center', p: 3, gap: 3, maxWidth: '70%' }}>
                       
-                        
+                        <Typography>TBD</Typography>
                      </Box>
                 </Box>
             </Box>

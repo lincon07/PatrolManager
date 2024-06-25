@@ -89,19 +89,16 @@ export default function Home(props: { darkMode: boolean, toggleDarkMode: () => v
                 <Tooltip title={ compactMode ?  "use exapanded mode" : "use compact mode"} onClick={toggleCompact}>
                     <IconButton> { compactMode ?  <ViewCompactAlt /> :  <ViewCompact />} </IconButton>
                 </Tooltip>
-                <Tooltip title="Manage account" onClick={handleMenuOpen}>
-                    <IconButton color="inherit">
+                <Tooltip title={`Community: ${community.Alias}`} >
+                    <IconButton>
+                        <Diversity1 />
+                    </IconButton>
+                </Tooltip>
+                <Tooltip title="Manage account" >
+                    <IconButton >
                         <ManageAccounts />
                     </IconButton>
                 </Tooltip>
-                <Menu
-                anchorEl={anchorEl}
-                open={Boolean(anchorEl)}
-                onClose={handleMenuClose}
-                >
-                <MenuItem onClick={handleMenuClose}> <Person sx={{mr: '15px'}}/> Settings</MenuItem>
-                <MenuItem onClick={handleMenuClose}><Diversity1 sx={{mr: '15px'}} /> {community.Alias}</MenuItem>
-            </Menu>
             </Toolbar>
                 }
             </AppBar>
@@ -114,13 +111,9 @@ export default function Home(props: { darkMode: boolean, toggleDarkMode: () => v
 
             : 
             <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' , alignContent: 'center' , alignItems: 'center' , width: '90vw', marginTop: '10vh' , overflowX: 'none'}}>
-            <Typography variant='h6' fontSize='small' color='text.secondary'>Connected community: {community.Alias} </Typography>
             <div style={{display:'flex' , flexDirection: 'row' , flexWrap: 'wrap', marginTop: '6vh'}}>
 
-                { compactMode ? <ConfigLite community={community}/>
-                :
-                <Config  community={community}/>
-                }
+                { compactMode ? <ConfigLite community={community}/> : <Config  community={community}/>}
             </div>
            </Box>
            }
