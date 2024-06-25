@@ -1,4 +1,6 @@
 Welcome to Patrol Manager. This is a tool for fivem communites to allow their members to easily fill their patrol logs. This project was made with React, and Electron. As well as I went with a local json-server as it's meant for a single user, and eliminates the worry for secruity worry. No one else can access your data or fill patrol logs on your behalf.
+**Previews:
+![image](https://github.com/lincon07/PatrolManager/assets/73676604/d265c89c-c687-479b-8e82-c1ee2a276fff)
 
 **Installation Directions:
 1. Install the exe.
