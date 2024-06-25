@@ -1,49 +1,8 @@
 {
     "Community": {
-        "Alias": "DoJRP",
-        "Fullname": "Department of Justice Roleplay",
-         "Departments": [
-            {
-                "Alias": "LSPD",
-                "Fullname": "Police Department",
-                "Icon": "LEO",
-                "image":"https://cdn.discordapp.com/attachments/1020102122727034951/1253451578648694855/218_20240620214813_1.png?ex=667738c0&is=6675e740&hm=3694b65a75947a454ae6d9e26abe5de0286de78c0699b9f318327cef46c35427&"
-            },
-            {
-                "Alias":"BCSO",
-                "Fullname":"Shegggriff's Office",
-                "Icon":"LEO",
-                "image":"https://cdn.discordapp.com/attachments/380418736563159044/1251185055242649742/image.png?ex=66778ba3&is=66763a23&hm=83e9505eae5c7fae910525af3765d575c6eb30bf9bc6f3ff58902b7c46055a13&"
-
-            },
-            {
-                "Alias":"SAHP",
-                "Fullname":"Highway Patrol",
-                "Icon":"LEO",
-                "image":"https://cdn.discordapp.com/attachments/391419455806373908/1250653983911968778/Screenshot_81.png?ex=66779749&is=667645c9&hm=024702bae664c94f1cd20213f9e993cf2bee7bca53419a2f50fa8597eaa5a58a&"
-
-            },
-            {
-                "Alias":"FD",
-                "Fullname":"Fire Department",
-                "Icon":"Fire",
-                "image": "https://cdn.discordapp.com/attachments/906583943850127370/1251551506155704402/Screenshot_20.png?ex=66778f6b&is=66763deb&hm=68afb23fc6cf106e79c490e8e2d78cc9d66143353e6bc8320656060cea6ac40f&"
-
-            }
-         ],
-        "Servers":[
-            {
-                "Alias":"S1",
-                "Fullname":"Server 1"
-            },
-            {
-                "Alias":"S2",
-                "Fullname":"Server 2"
-            },
-            {
-                "Alias":"S3",
-                "Fullname":"Server 3"
-            }
-        ]
+        "Alias": "",
+        "Fullname": "",
+        "Departments": [],
+        "Servers":[]
     }
 }

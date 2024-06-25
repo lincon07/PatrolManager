@@ -1,8 +1,8 @@
 {
   "name": "patrol-manager",
   "productName": "Patrol Manager",
-  "version": "1.0.3",
-  "description": "Patrol manger for your Fivem community!",
+  "version": "1.0.5",
+  "description": "Patrol manger for your fivem community!",
   "main": ".webpack/main",
   "build": {
     "publish": [
@@ -14,6 +14,9 @@
     ],
     "win": {
       "target": "nsis"
+    },
+    "mac": {
+      "target": "dmg"
     }
   },
   "scripts": {

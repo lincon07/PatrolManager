@@ -165,15 +165,7 @@ export default function Patrol() {
                 </Typography>
                 <Box sx={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
                     <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignContent: 'center', alignItems: 'center', p: 3, gap: 3, maxWidth: '70%' }}>
-                        <Tabs value={tabValue} onChange={handleTabChange}>
-                            <Tab label="Department" />
-                            <Tab label="Subdivisions" />
-                        </Tabs>
-                        {tabValue === 0 && 
-                        (<div>
-                           
-                        </div>)
-                        }
+                      
                         
                      </Box>
                 </Box>

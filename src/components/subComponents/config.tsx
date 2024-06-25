@@ -18,7 +18,7 @@ export default function Config(props: { community: CommuntyType }) {
                             <Typography color={'text.secondary'}>{dept.Fullname}</Typography>
                         </CardContent>
                         <CardActions>
-                            <Button>Patrol!</Button>
+                            <Button variant="contained">Patrol!</Button>
                         </CardActions>
                     </Card>
                 ))

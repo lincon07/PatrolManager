@@ -1,4 +1,4 @@
-import { BadgeRounded, DataArray, Dns, Error, Grade, Grading, LocalFireDepartment, LocalPolice, LocationCity, Storage } from "@mui/icons-material";
+import { BadgeRounded, DataArray, Dns, Error, Grade, Grading, LocalFireDepartment, LocalPolice, LocationCity, People, Storage } from "@mui/icons-material";
 import { Button, FormControl, Icon, InputLabel, MenuItem, Select, Step, StepButton, StepContent, StepLabel, Stepper } from "@mui/material";
 import React, { useEffect } from "react";
 import { CommuntyType, DeptType, ServerType } from "../../types";
@@ -33,6 +33,8 @@ export default function ConfigLite(props: { community: CommuntyType }) {
                 return <LocalFireDepartment fontSize="medium" />;
             case 'DoC':
                 return <BadgeRounded fontSize="medium" />;
+            case 'CIV':
+                return <People fontSize="medium" />;
             default:
                 return <Error fontSize="medium" />;
         }

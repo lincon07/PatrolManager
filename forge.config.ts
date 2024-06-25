@@ -18,12 +18,15 @@ const config: ForgeConfig = {
   },
   rebuildConfig: {},
   makers: [
-    new MakerSquirrel({}), // Set setup icon for Windows
-    new MakerZIP({}, ['darwin']),
+    new MakerSquirrel({
+      // Setup icon for Windows
+    }),
+    new MakerZIP({}),
     new MakerDMG({}),
     new MakerRpm({}),
-    new MakerDeb({}),
-    {name: '@electron-forge/maker-deb', config: { certificateFile: './certs/cert.pem', certificatePassword: 'password'}},
+    new MakerDeb({
+
+    }),
   ],
   plugins: [
     new AutoUnpackNativesPlugin({}),
